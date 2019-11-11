@@ -1,0 +1,203 @@
+body{
+    border-style: solid;
+    
+    }
+    
+    main{
+        width:  960px;
+        height: 700px;
+        position: relative;
+        background-color: rgb(92, 91, 88);
+        margin-right: auto;
+        margin-left:auto;
+      
+    }
+    
+    .a {
+        width: 960px;
+        height: 100px;
+        background-color: rgb(117, 115, 98);
+        text-align: center;
+        vertical-align: middle;
+    
+    }
+    .b {
+        width: 200px;
+        height: 600px;
+        background-color: rgb(117, 115, 98);
+        float: left;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .class1{
+        width: 760px;
+        height: 200px;
+        display: inline-block;
+        background-color: rgb(46, 45, 38);
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+    .c {
+        width: 380px;
+        height: 200px;
+        background-color: rgb(75, 74, 71);
+      
+    
+    }
+    .d {
+        width: 380px;
+        height: 200px;
+        background-color: rgb(143, 142, 132);
+        position: absolute;
+        top: 0;
+        left: 380px;
+    
+    }
+    .class2{
+        width: 760px;
+        height: 250px;
+        background-color: rgb(94, 90, 93);
+        display: inline-block;
+        height: 250px;
+        width: 760px;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 250px;
+    }
+    .e{
+        height: 250px;
+        width: 190px;
+        background-color: rgb(63, 55, 65);
+    }
+     .f{
+        height: 250px;
+        width: 190px;
+        background-color: rgb(83, 73, 70);
+        position: absolute;
+        top: 0;
+        left: 190px;
+    }
+    .g{
+        height: 250px;
+        width: 190px;
+        background-color: rgb(53, 49, 50);
+        position: absolute;
+        top: 0;
+        left: 380px;
+    }
+    .h{
+        height: 250px;
+        width: 190px;
+        background-color: rgb(90, 81, 78);
+        position: absolute;
+        top: 0;
+        left: 570px;
+    }
+    .i{
+        height: 150px;
+        width: 760px;
+        background-color: rgb(75, 74, 63);
+        position: absolute;
+        left: 200px;
+        text-align: center;
+        vertical-align: middle;
+       
+    }
+    @media (max-width:480px){
+        main{
+            width:  480px;
+            background-color: rgb(75, 74, 75);
+            margin-right: auto;
+            margin-left:auto;
+            position: relative;
+      
+        }
+        .a {
+         
+            background-color: rgb(50, 58, 50);
+            text-align: center;
+            width: 480px;
+            height: 75px;
+            vertical-align: middle;
+           
+        }
+        .b {
+            width: 480px;
+            height: 150px;
+            background-color: rgb(49, 51, 48);
+            float: left;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 150px;
+        }
+        .class1{
+            width: 480px;
+            height: 250px;
+            background-color: rgb(62, 64, 66);
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+           
+        }
+        .c {
+            background-color: rgb(74, 85, 84);
+            width: 480px;
+            height: 125px;
+        }
+        .d {
+            width: 480px;
+            height: 125px;
+            background-color: rgb(49, 54, 54);
+            position: absolute;
+            top: 125px;
+            left: 0;
+        }
+        .class2{
+            background-color: rgb(63, 59, 65);
+            display: inline-block;
+            height: 500px;
+            width: 480px;
+            position: relative;
+            text-align: center;
+            vertical-align: middle
+        }
+        .e{
+            background-color: rgb(65, 61, 60);
+            height: 250px;
+            width: 240px;
+        }
+         .f{
+            background-color: rgb(85, 81, 81);
+            height: 250px;
+            width: 240px;
+            position: absolute;
+            left: 240px;
+        }
+        .g{
+            
+            height: 250px;
+            width: 240px; 
+            background-color: rgb(112, 111, 110);
+            position: absolute;
+            left: 0px;
+        }
+        .h{
+            background-color: rgb(59, 53, 51);
+            height: 250px;
+            width: 240px;
+            position: absolute;
+            left: 240px;
+        }
+        .i{
+            height: 80px;
+            width: 480px;
+            position: absolute;
+            left: 0;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+    }
